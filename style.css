@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #f5f5f5;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#Nome h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ff4444;
+    margin-bottom: 30px;
+}
+
+
+div {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #ff4444;
+}
+
+
+#Aparêcia h2,
+#Habilidades h3,
+#Habitat h4,
+#Curiosidade h5 {
+    margin-bottom: 15px;
+    color: #ffaa00;
+}
+
+
+li {
+    margin-left: 20px;
+    list-style: square;
+}
+
+
+#Habitat,
+#Curiosidade {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #Nome h1 {
+        font-size: 2em;
+    }
+}
+img{
+    width: 350px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: px;
+}
